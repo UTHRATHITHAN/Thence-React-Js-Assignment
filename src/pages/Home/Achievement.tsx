@@ -1,8 +1,7 @@
 
 import {  spark, rocket } from '../../assets/ImageImport'
 
-// Three component nearer to the image
-
+// Three box nearer to the image
 function ReducedClientExpenses() {
     return (
         <section className='md:absolute  md:-bottom-12 md:-right-16 z-10

@@ -1,11 +1,15 @@
 import { FaArrowRightLong } from "react-icons/fa6";
-import { person} from '../../assets/ImageImport'
+import { person } from '../../assets/ImageImport'
 import BgBoxDesign from './BgBoxDesign'
 import Button from "../../components/Button/Button"
-import {ReducedClientExpenses, StaffDeployment, TeamAvailability} from './Achievement'
+import { ReducedClientExpenses, StaffDeployment, TeamAvailability } from './Achievement'
 import AutoPlayCarousel from '../Home/AutoPlayCarousel'
 
+
 export default function Main() {
+
+
+
     return (
         <section className='flex justify-center'>
 
@@ -29,14 +33,10 @@ export default function Main() {
                     <div className=' lg:w-4/12   lg:pt-10 px-6 pr-0 h-fit py-4  md:flex flex-col justify-center md:w-8/12 lg:ml-4 xl:ml-0 '>
                         <BgBoxDesign />
                         <div className='group z-50 '>
-                           
-                            <AutoPlayCarousel/>
 
-                          <div className=' flex gap-x-2 lg:mt-10 mt-6 pl-1 '>
-                                <span className='rounded-full bg-[#2DA950] h-2 w-2'></span>
-                                <span className='group-hover:bg-[#CAD0CB] rounded-full bg-[#E4E3E3] h-2 w-2'></span>
-                                <span className='rounded-full bg-[#E4E3E3] h-2 w-2'></span>
-                            </div> 
+                            <AutoPlayCarousel />
+
+                            <div className=' flex gap-x-4 lg:mt-10 mt-6 pl-1 '></div>
                         </div>
 
                         <Button className='bg-[#1C1C1C]  hover:bg-[#4E4E4E] z-30 lg:mt-[140px] mt-20 flex items-center gap-x-3 justify-center'>Explore More  <FaArrowRightLong /> </Button>

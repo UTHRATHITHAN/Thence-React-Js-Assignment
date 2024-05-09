@@ -53,7 +53,6 @@ export default function Form({ handleSuccess }: Props) {
                 disabled={!formData.name || !formData.email}
                 className={`mt-14 rounded-[40px]  h-[75px] w-[320px] md:w-[417px] pl-6 text-[#FFFFFF] cursor-not-allowed ${formData.name && formData.email ? 'bg-[#1C1C1C] hover:bg-[#4E4E4E] cursor-pointer' : ' bg-[#C9C9C9]'} `}
                 onClick={submit}
-
             >
                 Submit
             </Button>
