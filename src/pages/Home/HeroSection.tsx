@@ -26,17 +26,17 @@ export default function Main() {
                     </div>
 
 
-                    <div className=' lg:w-4/12   lg:pt-10 px-6 pr-0 h-fit py-4  md:flex flex-col justify-center md:w-8/12 lg:ml-4 xl:ml-0'>
+                    <div className=' lg:w-4/12   lg:pt-10 px-6 pr-0 h-fit py-4  md:flex flex-col justify-center md:w-8/12 lg:ml-4 xl:ml-0 '>
                         <BgBoxDesign />
                         <div className='group z-50 '>
                            
                             <AutoPlayCarousel/>
 
-                            <div className=' flex gap-x-2 lg:mt-10 mt-6 pl-1 '>
+                          <div className=' flex gap-x-2 lg:mt-10 mt-6 pl-1 '>
                                 <span className='rounded-full bg-[#2DA950] h-2 w-2'></span>
                                 <span className='group-hover:bg-[#CAD0CB] rounded-full bg-[#E4E3E3] h-2 w-2'></span>
                                 <span className='rounded-full bg-[#E4E3E3] h-2 w-2'></span>
-                            </div>
+                            </div> 
                         </div>
 
                         <Button className='bg-[#1C1C1C]  hover:bg-[#4E4E4E] z-30 lg:mt-[140px] mt-20 flex items-center gap-x-3 justify-center'>Explore More  <FaArrowRightLong /> </Button>
