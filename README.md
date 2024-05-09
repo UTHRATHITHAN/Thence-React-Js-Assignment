@@ -1,6 +1,6 @@
 # Staff Augmentation Services Platform
 
-Staff Augmentation Services Platform serves as a platform to market staff augmentation services to various companies, with a primary focus on targeting unicorn companies. It is built using React.js and styled with Tailwind CSS.
+[Staff Augmentation Services Platform](https://thence-react-js-assignment.vercel.app) serves as a platform to market staff augmentation services to various companies, with a primary focus on targeting unicorn companies. It is built using React.js and styled with Tailwind CSS.
 
 ## Prerequisites
 
