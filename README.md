@@ -58,8 +58,10 @@ This command will create a build directory with a production build of your app.
 
 ## Technologies Used
 
-- **React.js** : A JavaScript library for building user interfaces.
-- **Tailwind CSS** : A utility-first CSS framework for rapidly building custom designs.
+- **Vite** : A modern build tool for JavaScript and CSS that leverages cutting-edge compilation to drastically reduce development time.
+- **React** : A JavaScript library for building user interfaces, known for its efficient rendering and the composition of components.
+- **Tailwind CSS** : A utility-first CSS framework for rapidly building custom designs without leaving your HTML.
+- **react-slick** : A React carousel component that adds interactive and flexible slider capabilities to web applications.
 - **BrowserRouter** : Used for enabling dynamic routing in a web application.
 
 ## Contact
