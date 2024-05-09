@@ -17,7 +17,8 @@ To get the project running locally on your machine, follow these steps:
 First, clone the repository to your local machine using the following command:
 
 ```bash
-https://github.com/UTHRATHITHAN/Thence-React-Js-Assignment.git
+git clone https://github.com/UTHRATHITHAN/Thence-React-Js-Assignment.git
+# and
 cd Thence-React-Js-Assignment
 ```
 
