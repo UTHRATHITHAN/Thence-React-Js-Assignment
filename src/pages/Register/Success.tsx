@@ -12,7 +12,7 @@ export default function Success() {
       setTimeLeft(timeLeft - 1);
     }, 1000);
     setTimeout(() => {
-      navigate('/home', { replace: true });
+      navigate('/', { replace: true });
     }, 5000)
     return () => clearInterval(timerId);
   }, [timeLeft]);

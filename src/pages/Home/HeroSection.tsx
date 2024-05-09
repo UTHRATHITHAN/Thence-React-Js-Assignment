@@ -9,10 +9,10 @@ export default function Main() {
 
             <div className='flex justify-center items-center flex-col container pt-14'>
                 <p className='font-grace text-4xl font-normal text-[#2DA950] mb-3'>Success stories</p>
-                <p className='font-manrope font-semibold lg:text-6xl md:text-4xl text-3xl  w-full  lg:w-[700px] text-center'>Every success journey we’ve encountered.</p>
+                <p className='font-manrope font-semibold lg:text-6xl md:text-4xl text-3xl  w-[350px] md:w-[450px]  lg:w-[700px] text-center'>Every success journey we’ve encountered.</p>
 
-                <div className='w-full  lg:h-[500px]  mt-20 flex gap-x-3  flex-col-reverse  lg:flex-row md:justify-center md:items-center md:h-fit lg:justify-around lg:mt-44'>
-                    <div className='lg:w-5/12  lg:relative flex flex-col lg:flex-row lg:justify-end lg:ml-14   md:mb-6  h-fit justify-center items-center lg:mx-0 gap-y-6 px-6 mt-12 lg:mt-0 md:px-6'>
+                <div className='w-full  lg:h-[500px]  mt-20 flex gap-x-3  flex-col-reverse  lg:flex-row md:justify-center md:items-center md:h-fit lg:justify-around lg:mt-28 xl:ml-20'>
+                    <div className='lg:w-5/12  md:relative flex flex-col lg:flex-row lg:justify-end lg:ml-24   md:mb-6  h-fit justify-center items-center lg:mx-0 gap-y-6 px-6 mt-12 lg:mt-0 md:px-6 xl:ml-0'>
                         <img
                             src={person}
                             alt="Profile Image"
@@ -24,7 +24,7 @@ export default function Main() {
                     </div>
 
 
-                    <div className=' lg:w-4/12   lg:pt-10 px-6 h-fit py-4  md:flex flex-col justify-center md:w-8/12 '>
+                    <div className=' lg:w-4/12   lg:pt-10 px-6 pr-0 h-fit py-4  md:flex flex-col justify-center md:w-8/12 lg:ml-4 xl:ml-0'>
                         <BgBoxDesign />
                         <div className='group z-50 '>
                             <p className='font-manrope  font-semibold xl:text-4xl lg:text-3xl  text-3xl lg:w-[350px] w-full md:w-full lg:leading-10 '>Enhance fortune 50 company’s insights teams research capabilities</p>
@@ -46,11 +46,10 @@ export default function Main() {
     )
 }
 
-
 // Components near to images
 function ReducedClientExpenses() {
     return (
-        <section className='md:absolute md:right-10 md:-bottom-[580px] 
+        <section className='md:absolute  md:-bottom-12 md:-right-16 z-10
         xl:-bottom-[50px] xl:-right-[70px]  xl:w-[290px] xl:p-6  xl:gap-y-5
         lg:-bottom-[70px] lg:-right-[50px] bg-[#002E18]    lg:h-[160px] lg:w-[255px] lg:text-sm lg:font-light lg:gap-y-3
          p-6 lg:p-3 xl:h-[200px]  md:w-[300px] w-full  px-6 md:h-[220px] h-[230px]  rounded-[30px] flex flex-col gap-y-5'>
@@ -62,25 +61,25 @@ function ReducedClientExpenses() {
 
 function TeamAvailability() {
     return (
-        <section className='md:absolute md:-bottom-[250px] md:left-6  xl:top-28 xl:-left-[30px] lg:bottom-[170px] lg:-left-[120px] lg:w-[240px] lg:h-[170px] lg:text-2xl  text-start bg-white   xl:w-[250px] xl:h-[200px]  md:w-[280px] h-[230px] w-full  md:h-[230px] rounded-[30px] flex items-start justify-center flex-col  gap-y-3 md:border md:border-0 border border-zinc-300'>
+        <section className='md:absolute   md:-left-24 md:top-24  xl:top-24 xl:-left-24 2xl:left-0 lg:top-16 lg:-left-[120px] lg:w-[240px] lg:h-[190px] lg:text-2xl lg:pt-3 text-start bg-white   xl:w-[250px] xl:h-[220px]  md:w-[280px] h-[230px] w-full  md:h-[230px] rounded-[30px] flex items-start justify-center flex-col  gap-y-3 border border-zinc-300'>
             <p className='font-medium  text-5xl  lg:text-4xl ml-7'>40%</p>
             <p className='text-[#828282] text-lg  lg:text-base xl:text-lg font-manrope text-wrap lg:w-[200px]  ml-7'>Achieved reduction in project execution time by optimising team availability</p>
             <img
                 src={spark}
                 alt="Spark"
-                className=' hidden md:block absolute -top-[52px] -left-[15px] lg:-top-[34px] xl:-top-[40px] -rotate-30' />
+                className=' hidden md:block absolute -top-4 -left-2 lg:-top-4 xl:-top-6 -rotate-30' />
         </section>
     )
 }
 
 function StaffDeployment() {
     return (
-        <section className='md:absolute md:left-24 md:-bottom-[450px] xl:left-[40px] xl:bottom-[40px] lg:-left-[50px] lg:bottom-[40px]  bg-white md:rounded-[50px] rounded-[30px] md:w-[230px]  w-full md:h-20 h-[130px] lg:h-[80px] flex px-3 flex items-center gap-x-4 md:border md:border-0 border border-zinc-300 justify-center md:justify-start'>
+        <section className='md:absolute md:bottom-10 md:-left-10  xl:-left-12 xl:bottom-[40px] 2xl:left-10 lg:-left-[50px] lg:bottom-[40px]  bg-white md:rounded-[50px] rounded-[30px] md:w-[230px]  w-full md:h-20 h-[130px] lg:h-[80px]  px-3 flex items-center gap-x-4 border border-zinc-300 justify-center md:justify-start'>
             <div className='bg-[#DDEFE0] rounded-[50px] h-14 w-14 flex items-center justify-center'>
                 <img
                     src={rocket}
                     alt="Rocket-vector"
-                    className='h-6'
+                    className='h-6  right-0'
                 />
             </div>
             <div className='flex flex-col'>
@@ -90,5 +89,4 @@ function StaffDeployment() {
         </section>
     )
 }
-
 
