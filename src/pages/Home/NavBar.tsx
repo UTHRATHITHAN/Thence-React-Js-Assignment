@@ -31,7 +31,7 @@ export default function NavBar() {
             {
                 menu &&
 
-                <div className='duration-1000  transition-all ease-in-out md:hidden fixed  overscroll-none top-0   left-0 z-0  w-full h-full bg-white  border border-black rounded-lg flex flex-col gap-y-5 justify-center items-center'>
+                <div className='duration-1000  transition-all ease-in-out md:hidden fixed  overscroll-none top-0   left-0 z-20  w-full h-full bg-white  border border-black rounded-lg flex flex-col gap-y-5 justify-center items-center'>
                     <Button className={`hover:bg-[#F1F1F1]  text-black h-16 w-40 border border-[#EAEAEA]`} onClick={() => navigate('/register')}>
                         Get Projects
                     </Button>

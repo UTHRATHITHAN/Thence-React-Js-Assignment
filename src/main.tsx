@@ -5,7 +5,6 @@ import './index.css'
 import Register from './pages/Register/Register.tsx'
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <BrowserRouter>
